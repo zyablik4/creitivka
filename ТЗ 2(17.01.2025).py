@@ -1,0 +1,8 @@
+f = open('123.txt', 'r', encoding="utf-8")
+str1 = f.readline()
+str2 = f.readline()
+f.close()
+ff = open('123.txt', 'w', encoding="utf-8")
+ff.write(str2 + '\n')
+ff.write(str1)
+ff.close()
