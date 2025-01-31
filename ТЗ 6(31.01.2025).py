@@ -1,0 +1,8 @@
+f = open('123.txt', 'r', encoding="utf-8")
+str1 = f.readline().strip()
+str2 = f.readline().strip()
+f.close()
+f1 = open('123.txt', 'w', encoding="utf-8")
+w = int(str1) + int(str2)
+q = f1.write('Сумма '+str1+' и '+str2+' = '+str(w))
+f1.close()
