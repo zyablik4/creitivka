@@ -17,5 +17,17 @@ dat1 = a//10
 dat2 = a%10
 mes1 = s//10
 mes2 = s%10
-god1 = 
-print(dat1, dat2, mes1, mes2)
+god1 = d//1000
+god2 = (d%1000)//100
+god3 = (d%100)//10
+god4 = (d%10)//1
+print(dat1, dat2, mes1, mes2, god1, god2, god3, god4)
+sum = dat1 + dat2 + mes1 + mes2 + god1 + god2 + god3 + god4
+if sum <= 10:
+    print('Ваше предназначение - творчество')
+elif sum > 10 and sum <= 20:
+    print('Ваше предназачение - управленец')
+elif sum > 20 and sum <= 30:
+    print('Ваше предназначение - целитель')
+else:
+    print('Ваше предназначение - маг')
