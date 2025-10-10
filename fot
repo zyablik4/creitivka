@@ -1,0 +1,36 @@
+# for i in range(10):
+#     print('Hello World!')
+
+# a = 1
+# for i in range(20):
+#     print(a)
+#     a = a+1
+
+# a = 5
+# for i in range(99):
+#     print(a*(a+1))
+#     a = a+1
+
+# print('x     y')
+# for i in range(-10, 12, 2):
+#     y = 2 * i + 1
+#     print(i, '   ', y)
+
+#5
+
+# a = int(input('Введите первое число'))
+# b = int(input('Введите второе число'))
+# for i in range(a, b):
+#     print(i//12)
+
+# km = 10
+# den = 1
+# sum = 0
+# for i in range(10):
+#     print(den, km)
+#     den = den+1
+#     sum = km +(km + km*0.1)
+#     km = km + km*0.1
+# print('Суммарно:', sum)
+
+#8 тензор вектор
