@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2.css">
+    <script src="2.js"></script>
+</head>
+<body>
+   <header>
+
+    <button class="YouTube">YouTube</button>
+    <div class="poisk">
+    <input type="text" placeholder="Введите запрос" class="vvod" id="vvod"><button class="search">🔍</button>
+    </div>
+    <button class="mic">🎤</button>
+    <button class="soz">+ Создать</button>
+    <button class="zvon">🔔</button>
+    <button class="avatar">avatar</button>
+   </header>
+   <h2>
+    <button class="sleva" id ='sl1'>🏠 Главная</button>
+    <button class="sleva" id = 'sl2'>⚡ Shorts</button>
+    <button class="sleva" id = sl3>📺 Подписки</button>
+    <p class="liniya">---------------</p>
+    <button class="sleva" id = 'sl4'>🕓 История</button>
+    <button class="sleva" id="sl5">🎫 Плейлисты</button>
+    <button class="sleva" id="sl6">🖼 Ваши видео</button>
+    <button class="sleva" id="sl7">⏰ Смотреть позже</button>
+    <button class="sleva" id = 'sl8'>👍 Понравившиеся</button>
+    <select name="lan" id="lan" class="sleva">
+        <option value="0" class="sleva"></option>
+        <option value="1" class="sleva">ru</option>
+        <option value="2" class="sleva">en</option>
+    <button class="sleva" id="tema">Тема</button>
+    </select>
+   </h2>
+</body>
+</html>
+
+body{
+    background-color: rgb(34, 33, 33);
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.YouTube{
+    background-color: rgb(19, 19, 19);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 80px;
+}
+
+.mic{
+    background-color: rgb(69, 57, 57);
+    padding: 12px;
+    border-radius: 15px;
+    font-size: large;
+    margin-left: 10px;
+}
+
+.poisk{
+
+    display: flex;
+     .vvod{
+    border-radius: 20px 5px 5px 20px;
+    padding: 13px;
+    background-color: black;
+    border: 1px solid rgb(69, 57, 57);
+    color: white;
+}
+    .search{
+    background-color: rgb(69, 57, 57);
+    padding: 10px;
+    border-radius: 5px 20px 20px 5px;
+    font-size: large;
+}
+}
+.soz{
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border-radius: 15px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.zvon{
+    background-color: rgb(19, 19, 19);
+    border-radius: 20px;
+    margin-left: 10px;
+  
+}
+.avatar{
+    background-color: rgb(19, 19, 19);
+    border-radius: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.sleva{
+    display: grid;
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+    color: rgb(204, 187, 187);
+    padding: 10px;
+    border: none;
+    grid-template-columns: 100px;
+    text-align: left;
+}
+.sleva:hover{
+    background-color: rgb(66, 62, 62);
+}
+.liniya{
+    color: white;
+    margin-left: 15px;
+}
+
+let lan = document.getElementById('lan');
+let sl1 = document.getElementById('sl1');
+let sl2 = document.getElementById('sl2');
+let sl3 = document.getElementById('sl3');
+let sl4 = document.getElementById('sl4');
+let sl5 = document.getElementById('sl5');
+let sl6 = document.getElementById('sl6');
+let sl7 = document.getElementById('sl7');
+let sl8 = document.getElementById('sl8');
+let tema1 = 1;
+let tema = document.getElementById('tema');
+
+if (lan == 1){
+sl1.innerText() = 'qwe';
+}
