@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 2, 0.863);
+}
+header{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.card{
+    height: 300px;
+    width: 200px;
+    box-shadow: 2px 2px 4px rgb(59, 58, 58),
+                -2px -2px 4px rgb(59, 58, 58);
+    border-radius: 20px;
+    background-color: rgb(237, 237, 156);
+    transition: 0.5s;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.verh{
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.175);
+    position: sticky;
+    backdrop-filter: blur(5px);
+    z-index: 10;
+}
+.card:hover{
+    transform: translateY(-5px)
+}
+.kup{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgb(59, 58, 58),
+                -2px -2px 4px rgb(59, 58, 58);
+    background-color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.cart{
+    display: flex;
+    margin-left: 90%;
+    
+}
+.minions{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    font-size:50px;
+}
+.cart-kar5{
+    margin-top: 10px;
+}
+.cart-kar4{
+    height: 200px;
+    width: 200px;
+    margin-left: 3px;
+}
+
+.price{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.cart-kar3{
+    width: 130px;
+}
+.cart-kar2{
+    width: 150px;
+}
+.cart-kar1{
+    margin-top: -40px;
+}
