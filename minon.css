@@ -8,7 +8,7 @@ header{
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 .card{
-    height: 300px;
+    height: 350px;
     width: 200px;
     box-shadow: 2px 2px 4px rgb(59, 58, 58),
                 -2px -2px 4px rgb(59, 58, 58);
@@ -45,6 +45,7 @@ header{
                 -2px -2px 4px rgb(59, 58, 58);
     background-color: rgb(255, 255, 255);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.5s;
 }
 .cart{
     display: flex;
@@ -78,4 +79,68 @@ header{
 }
 .cart-kar1{
     margin-top: -40px;
+}
+.opis{
+    background-color: rgb(244, 255, 120);
+    padding-left: 10px;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    border: 1px solid;
+    
+}
+.kup:hover{
+    background-color: rgb(37, 226, 37);
+}
+.reset{
+    background-color: rgb(244, 255, 120);
+    border: 1px solid;
+    margin-left: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.reset:hover{
+    background-color: rgb(254, 33, 33);
+}
+.lin{
+    margin-top: 80px;
+}
+.pod{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    font-size: 15px;
+    
+}
+.tel{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+    font-size: 15px;
+}
+.opis1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.opis2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.opis3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    margin-top: 17px;
+}
+.opis4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.opis5{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 28px;
 }
