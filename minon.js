@@ -9,7 +9,8 @@ const kup3 = document.getElementById('kup3')
 const kup4 = document.getElementById('kup4')
 const kup5 = document.getElementById('kup5')
 const reset = document.getElementById('reset')
-
+const login = document.getElementById('login')
+const login2 = document.getElementById('login1')
 function cartfirst(){
     cart.value += 700
     cart.innerHTML=cart.value
@@ -34,4 +35,7 @@ function cartfives(){
 function res(){
     cart.value=0
     cart.innerHTML=cart.value
+}
+function login1(){
+    login2.innerHTML='Welcome, '+ login.value
 }
