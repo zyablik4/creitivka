@@ -144,3 +144,22 @@ header{
     font-size: 12px;
     margin-top: 28px;
 }
+.log{
+    background-color:rgb(255, 234, 0);
+    padding: 10px;
+    border: 1px solid rgb(255, 255, 67);
+    margin: 5px;
+
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.ybut{
+    display:grid;
+    grid-template-columns: minmax(100px, 200px);
+}
+    font-size: 12px;
+    margin-top: 28px;
+}
+
