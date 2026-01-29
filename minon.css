@@ -23,7 +23,7 @@ header{
     align-items: center;
     justify-content: space-between;
     text-align: center;
-
+    cursor: grab;
 }
 .verh{
     height: 100px;
@@ -46,6 +46,8 @@ header{
     background-color: rgb(255, 255, 255);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     transition: 0.5s;
+    margin-right: 10px;
+    background-color: rgb(248, 226, 187);   
 }
 .cart{
     display: flex;
@@ -158,8 +160,17 @@ h1{
 .ybut{
     display:grid;
     grid-template-columns: minmax(100px, 200px);
+    margin: 10px;
 }
-    font-size: 12px;
-    margin-top: 28px;
+.all{
+    display:flex;
+    height: fit-content ;
+    
 }
-
+.dropcart{
+    width: 150px;
+    height: 60px;
+    border: 2px, dashed #ccc;
+    text-align: center;
+    
+}
